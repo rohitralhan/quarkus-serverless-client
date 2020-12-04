@@ -4,7 +4,7 @@ unset MAVEN_CONFIG
 
 if [ ! -d "${CHE_PROJECTS_ROOT}/oc_client" ]
 then	
-	cd /projects/	
+	cd ${CHE_PROJECTS_ROOT}	
 	mkdir oc_client
 	wget https://github.com/rohitralhan/occlient/raw/main/oc-4.6.3-linux.tar.gz
 	tar -xvf oc-4.6.3-linux.tar.gz -C oc_client
