@@ -14,7 +14,7 @@ fi
 
 export PATH=$PATH:${CHE_PROJECTS_ROOT}/oc_client 
 
-cd ${CHE_PROJECTS_ROOT}/quarkus-time-table 
+cd ${CHE_PROJECTS_ROOT}/quarkus-serverless-client 
 
 oc login -u user1 -p user1 --server=https://api.cluster-838f.838f.example.opentlc.com:6443  --insecure-skip-tls-verify=true  > /dev/null 2>&1
 
